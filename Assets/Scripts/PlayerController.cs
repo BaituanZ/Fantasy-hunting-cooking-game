@@ -10,9 +10,8 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rigidBody;
     InputAction moveAction;
     InputAction jumpAction;
-    public GameObject coinPrefab;
 
-    public UnityEvent onMysteryBoxActivated;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
